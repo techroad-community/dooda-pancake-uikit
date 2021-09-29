@@ -21,7 +21,7 @@ export const Default: React.FC = () => {
     <div style={{ padding: "32px", width: "400px" }}>
       <Row>
         <Alert title="Info">
-          <Text as="p">This is a description</Text>
+          <Text as="p">Test auto deploy</Text>
         </Alert>
       </Row>
       <Row>
