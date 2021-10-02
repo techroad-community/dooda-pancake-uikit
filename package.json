@@ -20,6 +20,9 @@
     "test": "jest",
     "release": "yarn build && np"
   },
+  "publishConfig": {
+    "@akhilchhetri:registry": "https://npm.pkg.github.com"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "yarn format:write",
